@@ -40,6 +40,7 @@
 .Product-options{
     margin-bottom: 32px;
 }
+/*顏色照片*/
 .color-img{
     width: 64px;
 }
@@ -47,20 +48,67 @@
     text-align: center;
     color: var(--neutral-600);
 }
-
+/*尺寸按鈕*/
 .btn-list .product-size{
     width: 160px;
     border: 1px solid var(--neutral-300);
 }
+.btn-list .active{
+    border: 1px solid var(--neutral-900);
+}
 .size .h6{
     color: var(--functional-danger-300);
+}
+/*新增尺寸按鈕 hover 效果*/
+.product-size:hover{
+    border: 1px solid var(--neutral-900);
+}
+/*收藏&預約試穿 按鈕*/
+.button .btn{
+    width: 50%;
+}
+.btn-white{
+    border: 1px solid var(--neutral-900);
+}
+.btn-black{
+    border: 1px solid var(--neutral-900);
+    color:#FFFFFF;
+    background-color: var(--neutral-900);
+}
+/*icon 間距*/
+.bi{
+    margin-right: 8px;
+}
+/*按鈕 hover 效果*/
+.btn-white:hover{
+    color:#FFFFFF;
+    background-color: var(--neutral-900);
+}
+/*資訊欄*/
+.info-list .h5{
+    line-height: 1.5;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.info-item p{
+    font-weight: 400;
+    color:var(--neutral-600);
+}
+.info-item{
+    border-bottom: 1px solid var(--neutral-300);
+    padding-bottom: 12px;
+}
+
+/*熱銷橫幅*/
+.Best-seller{
+    padding: 48px 0;
 }
 
 
 
 /*橫幅縮排、顏色*/
 .Banner{
-	padding: 24px 0;
+	padding-top: 40px;
 	background-color: var(--primary-200);
 }
 /*橫幅按鈕文字、背景顏色*/
