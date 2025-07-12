@@ -48,6 +48,10 @@
     text-align: center;
     color: var(--neutral-600);
 }
+/*顏色照片 a 連結 hover 效果*/
+.color-img a:hover{
+    border: 1px solid var(--neutral-900);
+}
 /*尺寸按鈕*/
 .btn-list .product-size{
     width: 160px;
@@ -102,13 +106,16 @@
 /*熱銷橫幅*/
 .Best-seller{
     padding: 48px 0;
+    margin-bottom: 40px;
 }
-
-
+/*熱銷卡片 hover 效果*/
+.Best-seller .col-3 a:hover{
+    box-shadow: 10px 10px 10px -6px;
+}
 
 /*橫幅縮排、顏色*/
 .Banner{
-	padding-top: 40px;
+	padding: 24px 0;
 	background-color: var(--primary-200);
 }
 /*橫幅按鈕文字、背景顏色*/
